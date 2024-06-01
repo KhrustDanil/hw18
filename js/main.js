@@ -72,7 +72,7 @@ function userAge(promptMessage) {
 }
 
 let yearBirth = userAge('Enter your year of birth:');
-let age = new Date().getFullYear() - yearOfBirth;
+let age = new Date().getFullYear() - yearBirth;
 document.write(`Age: ${age}`);
 
 
